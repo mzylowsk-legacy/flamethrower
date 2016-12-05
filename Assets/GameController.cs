@@ -13,7 +13,6 @@ public class GameController : MonoBehaviour {
 	void Update () {
         if (Input.GetButtonDown("Cancel"))
         {
-            Debug.Log("Escape");
             Application.LoadLevel(0);
         }
        

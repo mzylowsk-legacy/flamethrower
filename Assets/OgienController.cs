@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using System;
 
 public class OgienController : MonoBehaviour {
 
@@ -9,6 +11,8 @@ public class OgienController : MonoBehaviour {
     private GameObject paliOgien;
     public GameObject shapeObject;
     public GameObject CelObject;
+
+    public Text scoreValue;
 
     private float timeLeft = 0.5f;
     // Use this for initialization
@@ -49,5 +53,11 @@ public class OgienController : MonoBehaviour {
         var pos = CelObject.transform.position;
         pos.y = pos.y - 1.0f;
         Instantiate(PoOgien, pos, new Quaternion());
+        
+        //updating score
+        int x = 0;
+        Int32.TryParse(scoreValue.text, out x);
+        x++;
+        scoreValue.text = x.ToString();
     }
 }
