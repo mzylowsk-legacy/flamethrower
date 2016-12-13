@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour {
         if (PlayerPrefs.HasKey("saved"))
         {
             scoreText.text = PlayerPrefs.GetString("score");
-            PlayerPrefs.DeleteAll();
+            PlayerPrefs.DeleteKey("saved");
         }
 	}
 	
@@ -28,6 +28,13 @@ public class GameController : MonoBehaviour {
         {
             PlayerPrefs.SetInt("saved", 1);
             PlayerPrefs.SetString("score", scoreText.text);
+            if (PlayerPrefs.HasKey("highscores")) {
+                PlayerPrefs.SetString("highscores", "High Scores: \n");
+            }
+            if (scoreText.text != "0") {
+                DateTime now = DateTime.Now;
+                PlayerPrefs.SetString("highscores", PlayerPrefs.GetString("highscores") + now.ToString() + " " + scoreText.text +" \n");
+            }
             Debug.Log("Game saved");
         }
 	}

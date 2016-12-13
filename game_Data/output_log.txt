@@ -1,0 +1,64 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon (TM) R5 M330 (ID=0x6660)
+    Vendor:   ATI
+    VRAM:     1015 MB
+    Driver:   21.19.137.1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Czarodziej\Desktop\flamethrower\game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Czarodziej\Desktop\flamethrower\game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Czarodziej\Desktop\flamethrower\game_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Czarodziej\Desktop\flamethrower\game_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Czarodziej\Desktop\flamethrower\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Czarodziej\Desktop\flamethrower\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Czarodziej\Desktop\flamethrower\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Czarodziej\Desktop\flamethrower\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Czarodziej\Desktop\flamethrower\game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Czarodziej\Desktop\flamethrower\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Czarodziej\Desktop\flamethrower\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Czarodziej\Desktop\flamethrower\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.041 seconds
+Platform assembly: C:\Users\Czarodziej\Desktop\flamethrower\game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Czarodziej\Desktop\flamethrower\game_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Canvas') is missing!
+ 
+(Filename:  Line: 1754)
+
+UnloadTime: 1.390509 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1bf0 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 11.164183 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 729.
+Total: 1.032962 ms (FindLiveObjects: 0.075946 ms CreateObjectMapping: 0.037120 ms MarkObjects: 0.588801 ms  DeleteObjects: 0.330667 ms)
+
+Game saved
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Canvas') is missing!
+ 
+(Filename:  Line: 1754)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.323213 ms
+
+Unloading 154 unused Assets to reduce memory usage. Loaded Objects now: 496.
+Total: 0.800855 ms (FindLiveObjects: 0.056746 ms CreateObjectMapping: 0.034986 ms MarkObjects: 0.256853 ms  DeleteObjects: 0.451414 ms)
+
